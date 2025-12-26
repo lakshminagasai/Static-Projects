@@ -1,0 +1,37 @@
+.image{
+    height: 45vh;
+    width: 100vw;
+}
+.top-container{
+    background-color: #03174c;
+    font-family: "Bree serif";
+    color: white;
+}
+.bottom-sec{
+    padding: 30px;
+    font-weight: bold;
+}
+.nightIsland{
+    font-size: 36px; 
+}
+.paragraph{
+    color: #98a1bd;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.heading1{
+    font-size: 16px;
+    color:white;
+}
+.image1{
+    height: 16vh;
+    width: 30vw;
+}
+
+.button1{
+    background-color: #8e97fd;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 12px;
+    color: white;
+}

@@ -1,0 +1,44 @@
+.podcast-container{
+    padding: 16px;
+}
+.hero-sec{
+    background-image: url("https://res.cloudinary.com/dddjuplfk/image/upload/v1716721440/podcasts-bg_pfnlfl.png");
+    background-size: cover;
+    height: 50vh;
+}
+.podcastHome-heading{
+    padding: 20px;
+    color: white;
+}
+.bottom-sec{
+    padding: 36px;
+}
+.image{
+    height: 17vh;
+    width: 17vw;
+    border-radius: 10px;
+}
+.podcast-heading1{
+    color: #151765;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+.para-podcast{
+    color:#5a7184;
+    font-size: 14px;
+}
+.box-podcast{
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+.container1{
+    margin: 20px;
+}
+.puri-heading{
+    color: white;
+}
+.button1{
+    text-align: center;
+}
