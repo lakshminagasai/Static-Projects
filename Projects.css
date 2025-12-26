@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.mainpage{
+    text-align: center;
+    padding: 30px;
+    font-family: "Bree Serif";
+}
+.image-Projects{
+    height: 50vh;
+    width: 100%;
+}
+.images{
+    height: 30vh;
+    width: 45vw;
+    margin: 10px;
+    border-radius: 20px;
+}
+.project-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+.project-body {
+    padding: 20px;
+}
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.project-desc {
+    color: #666;
+}
+.project-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-height: 500px;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+.btn-view {
+    margin-top: 10px;
+}
