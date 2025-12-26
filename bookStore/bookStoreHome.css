@@ -1,0 +1,92 @@
+.containerHome{
+    background-color:#1b1b1b;
+    padding: 30px;
+    font-family: "Bree Serif";
+    color: white;
+}
+.Popular-Book{
+    font-size: 28px;
+}
+.card{
+    background-color: #e6f6ff;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image{
+    height: 36vh;
+    width: 30vw;
+}
+.book-text-container{
+    background-color:#e6f6ff;
+    padding: 24px;
+    width: 100%;
+    font-weight: bold;
+}
+.kalam-book-heading{
+    color: #183b56;
+    font-size: 24px;
+    font-weight: bold;
+}
+.heading{
+    font-size: 14px;
+}
+.kalam-para{
+    color: #06070d;
+    font-size: 16px;
+}
+.recommend-heading{
+    font-size: 20px;
+}
+button{
+    text-align: center;
+    margin: 10px;
+}
+.image-one{
+    height: 24vh;
+    width: 20vw;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.books-text-container1{
+    padding: 24px;
+    background-color: #1b1b1b;
+}
+.book-heading{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+.book-para{
+    color: #e4e7eb;
+    font-size: 14px;
+    font-weight: 200;
+}
+.container-author{
+    background-color: #1b1b1b;
+    padding: 25px;
+    text-align: center;
+    font-family: "Bree serif";
+    height: 100vh;
+}
+.image-main{
+    height: 48vh;
+    width:40vw;
+    margin: 20px;
+
+}
+.main-book-author{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.main-para{
+    color:#9aa5b1;
+    font-size: 16px;
+}
+.content-of-author{
+    font-size: 16px;
+    color: #e4e7eb;
+    font-weight: 100;
+    text-align: left;
+}

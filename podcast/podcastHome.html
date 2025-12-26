@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="podcastHome.css">
+</head>
+<body>
+    <div class="podcast-container">
+        <div class="hero-sec">
+            <h1 class="podcastHome-heading">Podcasts</h1>
+        </div>
+     <div class="bottom-sec">
+        <div class="container1 d-flex flex-row justify-content-around">
+           <div class="box-podcast">
+            <div  onclick="hideShow()" >
+                <img  class="image" src="https://res.cloudinary.com/dddjuplfk/image/upload/v1716721893/puri-jagannadh-img_kwftjg.png"/>
+                <h1 class="podcast-heading1">Puri Jagannadh</h1>
+                <p class="para-podcast"> 24 Episodes</p>
+            </div>
+           </div>
+            <div class="box-podcast" onclick="window.document.location='podcastTedx.html'">
+                <img  class="image"src="https://res.cloudinary.com/dddjuplfk/image/upload/v1716722065/tedx-img_uefqpv.png"/>
+                <h1 class="podcast-heading1">Tedx talks</h1>
+                <p class="para-podcast"> 12 Episodes</p>
+            </div>
+        </div>
+        <div class="container1 d-flex flex-row justify-content-around">
+            <div class="box-podcast"  onclick="window.document.location='podcastSadhguru.html'">
+                <img class="image" src="https://res.cloudinary.com/dddjuplfk/image/upload/v1716722141/sadhguru-img_hbof6f.png"/>
+                <h1 class="podcast-heading1">Sadhguru</h1>
+                <p class="para-podcast"> 49 Episodes</p>
+            </div>
+            <div class="box-podcast" onclick="window.document.location='podcastOnPurpose.html'">
+                <img  class="image"src="https://res.cloudinary.com/dddjuplfk/image/upload/v1716722206/on-purpose-img_ezhjoq.png"/>
+                <h1 class="podcast-heading1">On purpose</h1>
+                <p class="para-podcast"> 49 Episodes</p>
+            </div>
+        </div>
+        <div class="button1">
+            <a href="/My Projects Page/Projects.html" target="_blank">
+                <button class="btn btn-primary" >Go to Home</button>
+            </a>
+        </div>
+     </div>
+       
+    </div>
+    
+    <!-- <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script> -->
+    <script type="text/javascript">
+        var div=document.getElementById('sectionPuri');
+        var s=0;
+        function hideShow(){
+            if(s==1){
+                div.style.display='block;'
+                s=0;
+            }
+            else{
+                div.style.display='none;'
+                s=1;
+            }
+        }
+       
+     </script>
+</body>
+</html>

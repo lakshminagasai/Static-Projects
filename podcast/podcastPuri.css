@@ -1,0 +1,56 @@
+.puri-hero-sec{
+    background-color: #151765;
+    padding: 30px;
+    color: white;
+    margin: 20px;
+}
+.image{
+    height: 20vh;
+    width: 14vw;
+    border-radius: 10px;
+}
+.para-podcast{
+    font-size: 14px;
+}
+.puri-text-container{
+    padding: 20px;
+}
+.puri-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.bottom-sec{
+    padding: 20px;
+}
+.box{
+    margin: 5px;
+    padding: 20px;
+}
+.box1{
+    padding: 20px;
+}
+.heading{
+    color: #151765;
+    font-size: 20px;
+}
+.para{
+    color: #5a7184;
+    font-size: 16px;
+}
+.time{
+    font-size: 14px;
+    color: #151765;
+    font-weight: bold;
+}
+.button{
+    text-align: right;
+    padding: 30px;
+}
+.button1{
+    background-color: #151765;
+    color: white;
+    font-weight: bold;
+    height: 4vh;
+    width:6vw;
+    border-radius: 10px;
+}
